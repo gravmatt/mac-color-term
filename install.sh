@@ -1,7 +1,5 @@
 #!/bin/sh
 
-echo '# ------------ TEST ------------' >> ~/.bash_profile
-
 echo '# Make ls use colors' >> ~/.bash_profile
 echo 'export CLICOLOR=1' >> ~/.bash_profile
 echo 'alias ls="ls -F"' >> ~/.bash_profile
