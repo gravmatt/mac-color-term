@@ -37,4 +37,4 @@ echo 'export PS1="\n$C_LIGHTGREEN\u$C_DARKGRAY@$C_BLUE\h $C_DARKGRAY: $C_LIGHTYE
 
 source ~/.bash_profile
 
-printf "\033[32mmac-color-term successfully installed"
+printf "\033[32mmac-color-term successfully installed\033[m"
