@@ -1,5 +1,6 @@
 #!/bin/sh
 
+echo '' >> ~/.bash_profile
 echo '# Make ls use colors' >> ~/.bash_profile
 echo 'export CLICOLOR=1' >> ~/.bash_profile
 echo 'alias ls="ls -F"' >> ~/.bash_profile
@@ -37,4 +38,4 @@ echo 'export PS1="\n$C_LIGHTGREEN\u$C_DARKGRAY@$C_BLUE\h $C_DARKGRAY: $C_LIGHTYE
 
 source ~/.bash_profile
 
-printf "\033[32mmac-color-term successfully installed\033[m"
+printf "\033[32mgravmatt's awesome mac-color-term was successfully installed.\033[m"
