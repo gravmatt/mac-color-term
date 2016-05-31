@@ -8,7 +8,7 @@ To get the same terminal style like on the image underneath, you have to follow 
 
 You can achieve that by open the terminal and go to the terminal preferences and select import.
 
-## 3. To get the colorful letters exexute the following command
+## 3. To get the colorful letters execute the following command
 
 ```
 $ bash -c "$(curl -Ls https://github.com/gravmatt/mac-color-term/raw/master/install.sh)"
